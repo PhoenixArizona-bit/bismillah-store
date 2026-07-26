@@ -1,4 +1,8 @@
 {
+  "framework": "vite",
+  "installCommand": "unzip -o -q *.zip -d . && npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
